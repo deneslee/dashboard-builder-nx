@@ -4,16 +4,13 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/dashboard-builder-e2e"
-    },
-    {
-      "path": "./apps/dashboard-builder"
-    },
-    {
       "path": "./libs/ui"
     },
     {
       "path": "./libs/datasources"
+    },
+    {
+      "path": "./apps/dashboard-builder"
     }
   ]
 }

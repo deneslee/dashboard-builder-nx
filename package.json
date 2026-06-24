@@ -7,11 +7,14 @@
   "dependencies": {
     "@mantine/core": "^9.4.0",
     "@mantine/hooks": "^9.4.0",
+    "@tanstack/react-router": "^1.170.16",
+    "@tanstack/start": "^1.120.20",
     "convex": "^1.41.0",
     "next": "~16.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-grid-layout": "^2.2.3",
+    "vinxi": "^0.5.11",
     "zustand": "^5.0.14"
   },
   "devDependencies": {
@@ -32,12 +35,13 @@
     "@swc/cli": "~0.8.0",
     "@swc/core": "~1.15.5",
     "@swc/helpers": "~0.5.18",
+    "@tanstack/router-plugin": "^1.168.18",
+    "@tanstack/router-vite-plugin": "^1.167.18",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.3.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@types/react-grid-layout": "^2.1.0",
     "@vitejs/plugin-react": "^6.0.0",
     "@vitest/coverage-v8": "~4.1.0",
     "@vitest/ui": "~4.1.0",
@@ -45,21 +49,11 @@
     "jsdom": "^27.1.0",
     "knip": "^6.18.0",
     "nx": "23.0.1",
+    "postcss": "^8.5.15",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "vite": "^8.0.0",
     "vite-plugin-dts": "~4.5.0",
     "vitest": "~4.1.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "less",
-      "sharp",
-      "@swc/core",
-      "@playwright/test",
-      "playwright",
-      "nx"
-    ]
   }
 }

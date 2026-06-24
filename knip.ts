@@ -7,22 +7,28 @@ export default {
     },
     'apps/dashboard-builder': {
       entry: ['src/app/**/*.{ts,tsx}'],
+      project: ['src/**/*.{ts,tsx}', 'convex/**/*.ts']
+    },
+    'libs/ui': {
+      entry: [],
       project: ['src/**/*.{ts,tsx}']
     },
-    'libs/*': {
-      entry: ['src/index.ts', 'src/index.tsx'],
+    'libs/datasources': {
+      entry: [],
       project: ['src/**/*.{ts,tsx}']
     }
   },
   ignoreDependencies: [
     '@nx/*',
     'nx',
-    '@swc/core',
-    '@swc/helpers',
     '@swc-node/register',
-    '@types/react',
-    '@types/react-dom',
-    'eslint',
-    'typescript'
+    '@tanstack/react-router',
+    '@tanstack/start',
+    'vinxi',
+    '@babel/core',
+    '@babel/preset-react',
+    '@tanstack/router-plugin',
+    '@tanstack/router-vite-plugin',
+    'convex'
   ]
 };
