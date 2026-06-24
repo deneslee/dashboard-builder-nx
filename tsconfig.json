@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/dashboard-builder-e2e"
+    },
+    {
+      "path": "./apps/dashboard-builder"
+    },
+    {
+      "path": "./libs/ui"
+    },
+    {
+      "path": "./libs/datasources"
+    }
+  ]
+}
