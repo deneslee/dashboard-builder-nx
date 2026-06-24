@@ -7,6 +7,7 @@
   "dependencies": {
     "@mantine/core": "^9.4.0",
     "@mantine/hooks": "^9.4.0",
+    "@tabler/icons-react": "^3.44.0",
     "@tanstack/react-router": "^1.170.16",
     "@tanstack/start": "^1.120.20",
     "convex": "^1.41.0",
@@ -54,6 +55,7 @@
     "typescript": "~5.9.2",
     "vite": "^8.0.0",
     "vite-plugin-dts": "~4.5.0",
+    "vite-tsconfig-paths": "^6.1.1",
     "vitest": "~4.1.0"
   }
 }

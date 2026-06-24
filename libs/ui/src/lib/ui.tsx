@@ -13,6 +13,7 @@ export function DashboardBuilderNxUi() {
     <div className={styles['container']}>
       <h1>Welcome to DashboardBuilderNxUi!</h1>
       <Button>Mantine Button</Button>
+      {/* @ts-expect-error cols missing in types */}
       <GridLayout className="layout" layout={layout} cols={12} rowHeight={30} width={1200}>
         <div key="a">Grid Item A</div>
       </GridLayout>

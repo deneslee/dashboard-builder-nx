@@ -1,0 +1,29 @@
+@layer reset, base, tokens, recipes, utilities;
+
+/* Custom Mantine Overrides for surfaces */
+:root[data-mantine-color-scheme="light"] {
+  --app-bg: var(--colors-surface-dimmed);
+  --app-surface: var(--colors-surface-light);
+  --app-border: #e9ecef;
+}
+
+:root[data-mantine-color-scheme="dark"] {
+  --app-bg: var(--colors-surface-darkDimmed);
+  --app-surface: var(--colors-surface-dark);
+  --app-border: #2c2e33;
+}
+
+body {
+  background-color: var(--app-bg);
+}
+
+.mantine-AppShell-main {
+  background-color: var(--app-bg);
+}
+
+.mantine-AppShell-header,
+.mantine-AppShell-navbar,
+.mantine-AppShell-aside {
+  background-color: var(--app-surface);
+  border-color: var(--app-border);
+}

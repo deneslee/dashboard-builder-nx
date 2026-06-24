@@ -16,6 +16,11 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@dashboard-builder-nx/source"]
+    "customConditions": ["@dashboard-builder-nx/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@dashboard-builder-nx/ui": ["libs/ui/src/index.ts"],
+      "@dashboard-builder-nx/datasources": ["libs/datasources/src/index.ts"]
+    }
   }
 }
