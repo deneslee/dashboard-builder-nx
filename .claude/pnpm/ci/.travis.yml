@@ -1,0 +1,11 @@
+cache:
+  npm: false
+  directories:
+    - "~/.pnpm-store"
+before_install:
+  - npm install --global corepack@latest
+  - corepack enable
+  - corepack prepare pnpm@latest-11 --activate
+  - pnpm config set store-dir ~/.pnpm-store
+install:
+  - pnpm install
